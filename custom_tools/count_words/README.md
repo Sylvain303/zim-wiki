@@ -13,12 +13,11 @@ How to setup:
 
 - Download and put the script in your "/home/user/bin" directory or wherever you like 
 - Make it executable. 
-
-This will add the script in the tools menu and you can process pages in one go.
-
 - Start a new Zim notebook for novel
 - Setup a top page for the novel chapter.
-- Setup another page stats (or any funny name you used to) outside of the novel chapter folder.  Mine looks like:
+- Setup another page stats (or any funny name you used to) outside of the novel chapter folder.
+
+Mine looks like:
 
 ```
 ~/Notebooks/Novel$ tree
