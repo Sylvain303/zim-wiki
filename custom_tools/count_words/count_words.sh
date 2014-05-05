@@ -5,8 +5,8 @@
 # $dest the current zim's page will be overwritten
 dest="$1"
 nb_word_by_page=400
-# edit this parameter to set a Notebookdir/ subfolder containing the novel
-# chapters. One page One chapter.
+# This parameter set the Notebookdir/ subfolder containing the novel
+# chapters. One page One chapter. As $3 you can set it in Custom Tools menu
 novel_dir="$3"
 
 # change to novel directory so we see only text file from this folder.
@@ -30,7 +30,7 @@ function float_eval()
 
 
 # all the job is done in a function so it's simpler to redirect to any
-# file or stdout for debuging. In Zim the output go into a page.
+# file or stdout for debuging. In Zim, the output go into a page.
 do_stat()
 {
 	echo "Content-Type: text/x-zim-wiki"
