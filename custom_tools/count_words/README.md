@@ -1,9 +1,11 @@
 count_words.sh
 ==============
 
-Count words and make a page for statistics in [Zim](http://zim-wiki.org/)
+Count words in all sub-pages of a Notebook and make statistics into the current page.
 
-See also: [Remove-line-breaks](https://github.com/jaap-karssenberg/zim-wiki/wiki/Remove-line-breaks-custom-tool) for another example of Custom Tools.
+A custom Tools for [Zim-wiki](http://zim-wiki.org/)
+
+See also: [Zim custom tools](https://github.com/jaap-karssenberg/zim-wiki/wiki/Custom-tools) for other examples.
 
 This shell script performs some stats useful for novel writer…
 
@@ -11,7 +13,7 @@ Compatible Linux and mac OS probably. (windows too, but with extra stuff to have
 
 How to setup:
 
-- Download and put the script in your "/home/user/bin" directory or wherever you like 
+- Download and put the script in your "/home/user/bin" directory or wherever you like.
 - Make it executable. 
 - Start a new Zim notebook dedicated for a novel.
 - Setup a top page for the novel's chapters.
